@@ -10,7 +10,7 @@ export default function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="About" element={<ArtGenerator />} />
+          <Route path="/generate-art" element={<ArtGenerator />} />
          
         </Routes>
       </div>
